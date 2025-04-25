@@ -28,7 +28,6 @@ class ProductInfo:
         print('Name and price OK') # если все ок
 
 
-
     def compare_last_two_price(self):
         """сравнивает цену последних 2 продуктов"""
         last_price = self.products[-1]['price']
