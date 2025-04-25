@@ -14,6 +14,7 @@ class Base():
         super().__init__()
         self.driver = driver
 
+    """Навигация к элементу"""
     def perform_on_element(self, element):
         the_element = WebDriverWait(self.driver, 30).until(EC.element_to_be_clickable((By.XPATH, element)))
         action = ActionChains(self.driver)

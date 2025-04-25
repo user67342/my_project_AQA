@@ -1,3 +1,5 @@
+"""Хранилище имени и цены товаров"""
+
 class ProductInfo:
     def __init__(self):
         self.products = []

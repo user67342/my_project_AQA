@@ -2,6 +2,7 @@ import random
 from faker import Faker
 
 """Генератор рандомных данных"""
+
 def get_random_city():
     return random.choice(['Сочи', 'Ульяновск', 'Воскресенск'])
 
@@ -44,5 +45,3 @@ def get_random_email():
     fak = Faker('en_US')
     email = fak.email(domain='inbox.ru')
     return email
-
-print(get_random_phone())
